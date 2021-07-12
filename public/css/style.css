@@ -1,0 +1,24 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+#formularioPg2{
+    margin : 5% 25% 10% 25%;
+}
+.link-novo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.link-novo:hover{
+    color: rgb(255, 255, 255);
+}
+#btn-opc button{
+    width: 100%;
+    margin: 1%;
+}
+#btn-opc{
+    margin-top: 10%;
+}
+.card{
+    margin: 2%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Api de usuários</a>
+        </div>
+    </nav>
+    <h1 style="text-align: center;">Criar usuário</h1>
+    <form action="/user/save" method="POST">
+        <div id="formularioPg2" class="row g-3 align-items-center">
+            <p>User name:</p><input class="form-control" type="text" name="userName"
+                    placeholder="Edu-Augusto" required>
+
+            <p>Nome completo:</p><input class="form-control" type="text" name="nome"
+                    placeholder="Fulano da Silva" required>
+            <p>Email:</p><input class="form-control" type="email"
+                    name="email" placeholder="exemplo@123.com" required>
+            
+            <p>Senha</p><input class="form-control" type="password"
+                    name="senha" placeholder="*******" required>
+            <p>CPF:</p><input class="form-control" type="number" name="cpf"
+                    placeholder="12345678914" required minlength="11" maxlength="11">
+            <button class="btn btn-success">Enviar</button>
+        </div>
+    </form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
