@@ -2,7 +2,7 @@
 
    <div>
         <h3>Descrição</h3>
-        <p>Esta api tem como objetivo o controle de usuários, com funcionalidades como listar, adicionar, editar e deletar usuários.Além do retorno de dados e operções no banco de dados, foi criada rotas gráficas para listar e criar usuários.</p>
+        <p>Esta api tem como objetivo o controle de usuários, com funcionalidades como listar, adicionar, editar e deletar usuários.Além do retorno de dados e operações no banco de dados, foi criada rotas gráficas para listar e criar usuários.</p>
     </div>
     <div>
         <h3>Ferramentas instaladas no projeto</h3>
